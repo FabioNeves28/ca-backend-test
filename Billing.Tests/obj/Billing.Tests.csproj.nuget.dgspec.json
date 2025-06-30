@@ -37,6 +37,9 @@
               },
               "C:\\Users\\Fabio\\source\\repos\\ca-backend-test\\Billing.Domain\\Billing.Domain.csproj": {
                 "projectPath": "C:\\Users\\Fabio\\source\\repos\\ca-backend-test\\Billing.Domain\\Billing.Domain.csproj"
+              },
+              "C:\\Users\\Fabio\\source\\repos\\ca-backend-test\\Billing.Infrastructure\\Billing.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Fabio\\source\\repos\\ca-backend-test\\Billing.Infrastructure\\Billing.Infrastructure.csproj"
               }
             }
           }
@@ -60,6 +63,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -272,6 +279,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

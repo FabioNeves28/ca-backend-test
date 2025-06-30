@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billing.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bd8e0a4b9f775506a92cae356be42b6fd12df0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec2dedb561aca1825e4cd0cfad8f34c691f954b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billing.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billing.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
