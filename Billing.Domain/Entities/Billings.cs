@@ -1,6 +1,6 @@
 ﻿namespace Billing.Domain.Entities
 {
-    public class Billing
+    public class Billings
     {
         public Guid Id { get; set; }
         public Guid CustomerId { get; set; }
